@@ -30,6 +30,7 @@
 		6F76842B2BDA05F800D39582 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F76842A2BDA05F800D39582 /* Artist.swift */; };
 		6F76842D2BDA060D00D39582 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F76842C2BDA060D00D39582 /* UserProfile.swift */; };
 		6F76842F2BDA370800D39582 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F76842E2BDA370800D39582 /* Extensions.swift */; };
+		6FD02E7A2BDA94C800C659B8 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD02E792BDA94C800C659B8 /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		6F76842A2BDA05F800D39582 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		6F76842C2BDA060D00D39582 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		6F76842E2BDA370800D39582 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6FD02E792BDA94C800C659B8 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				6F7684072BDA01F500D39582 /* Resources */,
 				6F7684062BDA01E900D39582 /* Managers */,
 				6F7684052BDA01DF00D39582 /* ViewModels */,
+				6FD02E7B2BDA94D500C659B8 /* Models */,
 				6F7684042BDA01D800D39582 /* Views */,
 				6F7684032BDA01B600D39582 /* Controllers */,
 				6F7683FD2BDA019C00D39582 /* Info.plist */,
@@ -174,6 +177,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		6FD02E7B2BDA94D500C659B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FD02E792BDA94C800C659B8 /* AuthResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -252,6 +263,7 @@
 				6F7684182BDA049800D39582 /* ProfileViewController.swift in Sources */,
 				6F7683F42BDA019B00D39582 /* HomeViewController.swift in Sources */,
 				6F7684252BDA059D00D39582 /* HapticsManager.swift in Sources */,
+				6FD02E7A2BDA94C800C659B8 /* AuthResponse.swift in Sources */,
 				6F7684292BDA05E800D39582 /* AudioTrack.swift in Sources */,
 				6F7684092BDA02FD00D39582 /* TabBarViewController.swift in Sources */,
 				6F7684112BDA042200D39582 /* AuthViewController.swift in Sources */,
