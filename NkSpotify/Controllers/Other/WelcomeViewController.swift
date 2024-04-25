@@ -35,11 +35,15 @@ class WelcomeViewController: UIViewController {
         let vc = AuthViewController()
         vc.completionHandler = { [weak self] success in
             DispatchQueue.main.async {
-                self.handleSign(success: success)
+                self?.handleSign(success: success)
             }
         }
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    private func handleSign(success: Bool) {
+        
     }
     
 }
